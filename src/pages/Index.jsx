@@ -79,10 +79,10 @@ const Index = () => {
               ))}
             </TableBody>
           </Table>
-          <Button onClick={handleAddRow} className="mt-4">
+          <Button onClick={handleAddRow} className="mt-4 mr-2">
             Add Row
           </Button>
-          <CSVLink data={data} headers={headers} filename={fileName} className="mt-4">
+          <CSVLink data={data} headers={headers} filename={fileName} className="mt-4 ml-2">
             <Button>Download CSV</Button>
           </CSVLink>
         </>
